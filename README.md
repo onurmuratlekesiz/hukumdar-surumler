@@ -14,6 +14,12 @@ Başvurma harcını makbuzdaki ödenmiş tutarla girin. Çıktı hukuki kontrol 
 
 OML ortak proje imzasıdır. Bu uygulama yapay zekâ ile geliştirilmiştir.
 
+**Hesap dökümü:** Sonuç bölümündeki **Nasıl hesaplandı?** düğmesi harç matrahını, oranı, ödenen harçları, bakiye/iade hesabını, AAÜT dilimlerini ve uygulanan sınırları, gider ve arabuluculuk dağılımını gösterir. Döküm kopyalanabilir; mevcut form değiştiğinde güncellenir.
+
+**Tarife kaynağı:** Tarifeler ekranında AAÜT ve harç yürürlük dönemleri ayrı gösterilir. TBB ve GİB kaynakları açılabilir. Değiştirilen kalemler başlangıç ve kayıtlı değerleriyle belirtilir. Yeni eklenen yıllar özel tarife olarak işaretlenir. Takvim yılı seçimi AAÜT dönemini karar tarihine göre otomatik seçmez.
+
+**Önceki sürüme dönüş:** Geçerli EXE yedeği varsa Güncellemeler ekranındaki açılır **Önceki sürüme dönüş** bölümünden geri yükleyebilirsiniz. Önce form kaydedilir; taslak ve tarifeler korunur. Yedeği silmeyin. 2.2.4 ve sonrasından başlatılan güncellemelerde yeni sürümün arayüzü üç dakika içinde hazır olduğunu bildirmezse ya da açılışta kapanırsa önceki EXE otomatik geri yüklenir. 2.2.3'ten yapılan ilk geçiş eski kurucuyla gerçekleştiğinden otomatik açılış kontrolü sonraki güncellemelerde devreye girer; eski kurucunun bıraktığı yedek, manuel geri dönüş için tanınır.
+
 Sürümler: https://github.com/onurmuratlekesiz/hukumdar-surumler/releases/latest
 
 Güncellemeler ekranı ilk açıldığında sürüm kontrol edilir. Tek ana düğme o anki işlemi gösterir: güncelleme varsa indirme, indirme tamamlanınca kurulum ve yeniden başlatma. Yeniden başlatmak için düğmeye basmanız gerekir. Tarayıcıdan indirme seçeneği yalnızca kontrol/indirme hatasında görünür.
