@@ -1,6 +1,6 @@
 # Hükümdar
 
-Windows paketini bir klasöre çıkartın ve **Hükümdar.exe** dosyasını açın. ZIP yalnızca bu EXE'yi içerir; Python kurulumu gerekmez. Masaüstü penceresi Edge WebView2 kullanır. Pencere motoru başlatılamazsa uygulama tarayıcıya geçer.
+Windows paketini bir klasöre çıkartın ve **Hükümdar.exe** dosyasını açın. ZIP yalnızca bu EXE'yi içerir; Python kurulumu gerekmez. Masaüstü penceresi Edge WebView2 kullanır. EXE masaüstü penceresinde açılır; tekrar çalıştırıldığında mevcut pencere öne getirilir. Pencere motoru başlatılamazsa hata mesajı gösterilir.
 
 Uygulama internet olmadan hesaplama yapar. Sağ üstteki **Güncellemeler** düğmesiyle yeni sürümü kontrol edin; varsa **İndir**, ardından **Kur ve yeniden başlat** düğmesine basın. İndirilen dosya SHA-256 özetiyle doğrulanır. Kurulum son formu kaydeder, uygulamayı kapatır, eski EXE'nin yanına bir yedek bırakır ve yeni sürümü açar. Uygulama klasörüne yazma izni gerekir. Güncelleme bir tarife yılı seçmez veya kullanıcıya ait özel tarifeleri silmez.
 
