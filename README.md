@@ -15,3 +15,5 @@ Başvurma harcını makbuzdaki ödenmiş tutarla girin. Çıktı hukuki kontrol 
 OML ortak proje imzasıdır. Bu uygulama yapay zekâ ile geliştirilmiştir.
 
 Sürümler: https://github.com/onurmuratlekesiz/hukumdar-surumler/releases/latest
+
+Güncellemeler ekranı ilk açıldığında sürüm kontrol edilir. Tek ana düğme o anki işlemi gösterir: güncelleme varsa indirme, indirme tamamlanınca kurulum ve yeniden başlatma. Yeniden başlatmak için düğmeye basmanız gerekir. Tarayıcıdan indirme seçeneği yalnızca kontrol/indirme hatasında görünür.
