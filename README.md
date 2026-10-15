@@ -6,6 +6,8 @@ Uygulama internet olmadan hesaplama yapar. Sağ üstteki **Güncellemeler** dü�
 
 Kayıtlar `%LOCALAPPDATA%\Hukumdar` klasöründedir; uygulama dosyasını değiştirmek bunları silmez. Güncelleme kurulum hataları aynı klasördeki `update.log` dosyasına yazılır. GitHub veya internet erişimi yoksa güncelleme ertelenir; yerel hesaplama devam eder. Dosyayı yazılabilir bir klasörde tutun.
 
+**Güncellemeden sonra açılmıyorsa:** 2.2.5 veya daha yeni ZIP paketini resmî sürüm sayfasından indirip yeni bir klasöre çıkartın ve içindeki EXE'yi çalıştırın. Kayıt klasörünü silmeyin. 2.2.5, yeniden başlatmayı eski sürümün geçici dosyalarından ayırır; kurucu başlamazsa uygulamayı kapatmaz. Kurum betik çalıştırmayı engellerse elle dosya değiştirerek güncelleyin; güvenlik ayarlarını değiştirmek gerekmez. Başlatma hataları `update-installer.log`, dosya değiştirme/açılış kontrolü `update.log` içindedir.
+
 İlk sürümdeki **Hükümdar 2026.exe** kullanıcıları yeni paketi bir kez elle indirip çıkartmalıdır; sonraki sürümler uygulama içinden güncellenebilir.
 
 Kurum ağında güncelleme bağlantısı Windows'un sistem/kullanıcı proxy ve sertifika ayarlarını kullanır. Hata mesajı sertifika, proxy kimlik doğrulaması, DNS veya zaman aşımını belirtir. **Tarayıcıdan indir** düğmesi resmî sürüm sayfasını açar. 2.2.0'da bağlantı hatası alan kullanıcılar 2.2.1'i tarayıcıdan indirip eski EXE kapalıyken değiştirmelidir; kayıtlar korunur. Kurumun erişim kuralları bağlantıyı engelliyorsa bilgi işlem birimiyle görüşün.
