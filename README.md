@@ -8,6 +8,8 @@ Kayıtlar `%LOCALAPPDATA%\Hukumdar` klasöründedir; uygulama dosyasını deği�
 
 **Güncellemeden sonra açılmıyorsa:** 2.2.5 veya daha yeni ZIP paketini resmî sürüm sayfasından indirip yeni bir klasöre çıkartın ve içindeki EXE'yi çalıştırın. Kayıt klasörünü silmeyin. 2.2.5, yeniden başlatmayı eski sürümün geçici dosyalarından ayırır; kurucu başlamazsa uygulamayı kapatmaz. Kurum betik çalıştırmayı engellerse elle dosya değiştirerek güncelleyin; güvenlik ayarlarını değiştirmek gerekmez. Başlatma hataları `update-installer.log`, dosya değiştirme/açılış kontrolü `update.log` içindedir.
 
+**Kurulumda “Signal timed out” uyarısı:** Eski sürümlerin kurulum isteği 10 saniyede kesilebilir; bu mesaj kurulumun sonucunu tek başına belirtmez. 2.2.6 veya daha yeni paketi tarayıcıdan indirip mevcut uygulama kapalıyken yeni klasörden çalıştırın. Açılan uygulamanın sürümünü kontrol edin. Yeni sürüm kurulum/geri dönüş yanıtını iki dakika, kurucunun başlamasını 30 saniye bekler.
+
 İlk sürümdeki **Hükümdar 2026.exe** kullanıcıları yeni paketi bir kez elle indirip çıkartmalıdır; sonraki sürümler uygulama içinden güncellenebilir.
 
 Kurum ağında güncelleme bağlantısı Windows'un sistem/kullanıcı proxy ve sertifika ayarlarını kullanır. Hata mesajı sertifika, proxy kimlik doğrulaması, DNS veya zaman aşımını belirtir. **Tarayıcıdan indir** düğmesi resmî sürüm sayfasını açar. 2.2.0'da bağlantı hatası alan kullanıcılar 2.2.1'i tarayıcıdan indirip eski EXE kapalıyken değiştirmelidir; kayıtlar korunur. Kurumun erişim kuralları bağlantıyı engelliyorsa bilgi işlem birimiyle görüşün.
